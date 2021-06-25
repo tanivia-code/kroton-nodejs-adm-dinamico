@@ -8,4 +8,16 @@ module.exports = {
   charts: function(req, res) {
     res.render('home/cards');
   },
+  buttons: function(req, res) {
+    res.render('home/buttons');
+  },
+  others: function (req, res) {
+     res.render('home/others');
+  },
+  blank: function(req, res) {
+    res.render('home/blank');
+  },
+  login: function(req, res) {
+    res.render('home/login');
+  },
 }

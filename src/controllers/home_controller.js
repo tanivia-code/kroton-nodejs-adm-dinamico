@@ -5,7 +5,7 @@ module.exports = {
   cards: function(req, res) {
     res.render('home/cards');
   },
-  c: function(req, res) {
+  buttons: function(req, res) {
     res.render('home/buttons');
   },
 }

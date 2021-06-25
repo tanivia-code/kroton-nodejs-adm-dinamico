@@ -8,4 +8,7 @@ module.exports = {
   blank: function(req, res) {
     res.render('home/blank');
   },
+  login: function(req, res) {
+    res.render('home/login');
+  },
 }

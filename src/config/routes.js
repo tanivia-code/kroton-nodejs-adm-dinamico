@@ -4,5 +4,6 @@ const HomeController = require("../controllers/home_controller")
 
 router.get('/', HomeController.index);
 router.get('/cards', HomeController.cards);
+router.get('/buttons', HomeController.buttons);
 
 module.exports = router;

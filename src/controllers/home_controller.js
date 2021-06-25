@@ -1,23 +1,26 @@
 module.exports = {
-  index: function(req, res) {
+  index: function (req, res) {
     res.render('home/index');
   },
-  cards: function(req, res) {
+  cards: function (req, res) {
     res.render('home/cards');
   },
-  charts: function(req, res) {
+  charts: function (req, res) {
     res.render('home/cards');
   },
-  buttons: function(req, res) {
+  buttons: function (req, res) {
     res.render('home/buttons');
   },
   others: function (req, res) {
-     res.render('home/others');
+    res.render('home/others');
   },
-  blank: function(req, res) {
+  blank: function (req, res) {
     res.render('home/blank');
   },
-  login: function(req, res) {
+  login: function (req, res) {
     res.render('home/login');
+  },
+  animations: function (req, res) {
+    res.render('home/animations');
   },
 }
